@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@mipmap/beijing" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/container" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="horizontal" android:background="#FFFFFF" android:layout_height="60dp" android:layout_width="match_parent" android:layout_marginBottom="20dp">
+
+    <ImageView android:layout_height="60dp" android:layout_width="110dp" android:id="@+id/touxiang" android:layout_marginBottom="10dp" android:src="@mipmap/zhanbafang"/>
+
+    <TextView android:background="@drawable/round" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30dp" android:textColor="#CB0" android:layout_marginTop="10dp" android:text="战八方组团队介绍"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <TextView android:background="@drawable/round" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:textColor="#CB0" android:text="组长:"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:text="汪凯"/>
+
+    <ImageView android:layout_height="match_parent" android:layout_width="154dp" android:src="@mipmap/sun"/>
+
+    <ImageView android:layout_height="match_parent" android:layout_width="139dp" android:src="@mipmap/cloud"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="10dp">
+
+    <TextView android:background="@drawable/round" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:textColor="#CB0" android:text="答辩人:"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:text="谷晨博"/>
+
+    <ImageView android:layout_height="50dp" android:layout_width="94dp" android:src="@mipmap/rain"/>
+
+    <ImageView android:layout_height="50dp" android:layout_width="wrap_content" android:src="@mipmap/lei"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <TextView android:background="@drawable/round" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:textColor="#CB0" android:text="组员:"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:text="丁鑫豪，胡立博"/>
+
+</LinearLayout>
+
+    <EditText android:background="@drawable/round" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="关于我们"/>
+
+    <TextView android:background="@drawable/round" android:layout_height="32dp" android:layout_width="339dp" android:textSize="18dp" android:layout_marginTop="10dp" android:text="战八方团队，专注打造天气预报app50年"/>
+
+    <TextView android:background="@drawable/round" android:layout_height="39dp" android:layout_width="336dp" android:textSize="18dp" android:layout_marginTop="10dp" android:text="手持超酷预报app，纵览全国风云变动"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn01" android:layout_marginTop="20dp" android:text="进入app" android:layout_marginLeft="250dp"/>
+
+</LinearLayout>
